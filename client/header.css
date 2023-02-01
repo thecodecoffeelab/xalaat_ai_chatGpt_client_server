@@ -1,0 +1,71 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background: url('assets/backg.jpg');
+    background-image: no-repeat;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9d595969 10%, hwb(21 3% 1% / 0.997) 100%);
+	
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 58px;
+	margin-bottom: 30px;
+}
+
+ p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+    font-size: 50;
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: white;
+	background: #e69603;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+input{
+    border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #eea92a;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b
+}
+button:hover{
+	cursor: pointer;
+}
+
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
+h6 {
+font-size: 20px;
+}
